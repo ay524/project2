@@ -1,0 +1,131 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangular Form</title>
+    <a href="C:\Users\hp\Pictures\1000012664.jpg" >my name is Ayalsew Birhan </a>
+    <link rel="stylesheet" href="styles.css">
+</head>&nbsp;&nbsp;&nbsp;&nbsp;
+<BUtton><a href="https://apps.apple.com/in/developer/brainly-sp-z-o-o/id585621527">helped by AI </a></html></BUtton>
+
+
+
+
+<style>
+/* Styling for the form container */
+    .form-container {
+       background-image: url('https://www.google.com/imgres?q=same%20%20registration%20form%20color%20&imgurl=https%3A%2F%2Fcdn.prod.website-files.com%2F6718da5ecf694c9af0e8d5d7%2F677f9ed7023107a1d97a4eb8_673b6ce03ce129e21d3e69f5_Product_registration_thumbnail.webp&imgrefurl=https%3A%2F%2Fwww.typeform.com%2Ftemplates%2Fproduct-registration-form-template&docid=A_1WqdtMaS3mNM&tbnid=YN4Qn6l2cBmoLM&vet=12ahUKEwjytu_Go4-MAxU9aqQEHbD2MR44ChAzegQIdRAA..i&w=1000&h=600&hcb=2&ved=2ahUKEwjytu_Go4-MAxU9aqQEHbD2MR44ChAzegQIdRAA');
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 2px solid #4CAF50;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+    /* Styling for form title */
+    form h2 {
+        text-align: center;
+        color: #333;
+    }
+    /* Styling for form groups (labels and inputs) */
+    .form-group {
+        margin-bottom: 20px;
+    }
+    /* Styling for labels */
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    /* Styling for inputs */
+    .form-group input {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    /* Styling for the submit button */
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    </style>
+    
+<body>
+    <div class="form-container">
+        <form action="#" method="POST">
+            <h2>Signup Form</h2>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+         <div class="sex">
+                    <label for="year">year:</label>
+                    <input type="year"   id="year" name="year" required >
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script>
+    // JavaScript to validate form fields
+    function validateForm(event) {
+        // Get the form elements
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+        const year=document.getElementById("year").value;
+        // Validate name
+        if (name === "") {
+            alert("Please enter your name.");
+            event.preventDefault();  // Prevent form submission
+            return false;
+        }
+        }
+        // Validate email
+        const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        if (!email.match(emailPattern)) {
+            alert("Please enter a valid email address.");
+            event.preventDefault();  // Prevent form submission
+            return false;
+        }
+        // Validate password
+        if (password === "") {
+            alert("Please enter a password.");
+            event.preventDefault();  // Prevent form submission
+            return false;
+        }
+//validate of year
+if(year>=100){
+alert("the year is error")
+return;}
+else {
+alert("the system is failed ")
+}
+ }
+</script>
+</html>
+
+
+
+
+
+
